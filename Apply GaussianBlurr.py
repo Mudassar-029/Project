@@ -34,5 +34,6 @@ cv2.imshow('Gaussian Blurring',blur)
 while True:
  k = cv2.waitKey(0) & 0xFF     
  if k == 27: break  
- cv2.destroyAllWindows()
+ cv2.destroyAllWindows() 
+ 
 cap.release ()
